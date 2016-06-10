@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-fading-circle',
-  styleUrls: ['fading-circle.css'],
+  styles: [ require('fading-circle.css') ],
   template: require('./fading-circle.html')
 })
 

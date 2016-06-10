@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-folding-cube',
-  styleUrls: ['folding-cube.css'],
+  styles: [require('./folding-cube.css') ],
   template: require('./folding-cube.html')
 })
 

@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-wandering-cubes',
-  styleUrls: ['wandering-cubes.css'],
+  styles: [ require('./wandering-cubes.css') ],
   template: require('./wandering-cubes.html')
 })
 

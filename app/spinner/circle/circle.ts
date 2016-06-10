@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-circle',
-  styleUrls: ['circle.css'],
+  styles: [ require('./circle.css') ],
   template: require('./circle.html')
 })
 

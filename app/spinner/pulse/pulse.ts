@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-pulse',
-  styleUrls: ['pulse.css'],
+  styles: [ require('./pulse.css') ],
   template: require('./pulse.html')
 })
 

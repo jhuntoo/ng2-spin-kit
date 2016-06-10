@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-rotating-plane',
-  styleUrls: ['rotating-plane.css'],
+  styles: [ require('./rotating-plane.css') ],
   template: require('./rotating-plane.html')
 })
 

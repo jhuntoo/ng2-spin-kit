@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-cube-grid',
-  styleUrls: ['cube-grid.css'],
+  styles: [require('./cube-grid.css') ],
   template: require('./cube-grid.html')
 })
 

@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-double-bounce',
-  styleUrls: ['double-bounce.css'],
+  styles: [ require('./double-bounce.css') ],
   template: require('./double-bounce.html')
 })
 

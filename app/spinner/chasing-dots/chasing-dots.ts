@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-chasing-dots',
-  styleUrls: ['chasing-dots.css'],
+  styles: [ require('./chasing-dots.css') ],
   template: require('./chasing-dots.html')
 })
 

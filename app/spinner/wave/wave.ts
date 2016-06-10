@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-wave',
-  styleUrls: ['wave.css'],
+  styles: [ require('./wave.css') ],
   template: require('./wave.html')
 })
 

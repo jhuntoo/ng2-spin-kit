@@ -3,7 +3,7 @@ import {BaseSpinner} from '../base-spinner';
 
 @Component({
   selector: 'sk-word-press',
-  styleUrls: ['word-press.css'],
+  styles: [ require('./word-press.css') ],
   template: require('./word-press.html')
 })
 
